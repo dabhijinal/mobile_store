@@ -1,64 +1,150 @@
-<<<<<<< HEAD
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 📱 Mobile Store Management System
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A complete **Mobile Store Management System** built using **Laravel**, **PHP**, **MySQL**, **Bootstrap**, **HTML**, **CSS**, and **JavaScript**. This project provides a modern e-commerce platform where customers can browse products, place orders, and leave reviews, while administrators can efficiently manage the entire store through a dedicated admin dashboard.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## 🚀 Features
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 👤 User Features
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+* User Registration & Login
+* Browse Mobile Products
+* Product Categories
+* Product Details
+* Add to Cart
+* Place Orders
+* Order History
+* Product Reviews
+* User Profile
 
-## Learning Laravel
+### 🔐 Admin Features
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+* Secure Admin Login
+* Dashboard with Statistics
+* Manage Users
+* Manage Admins
+* Manage Products
+* Manage Categories
+* View Orders
+* Manage Customer Reviews
+* Product Image Upload
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+---
 
-## Laravel Sponsors
+## 🛠️ Technologies Used
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+* Laravel
+* PHP
+* MySQL
+* HTML5
+* CSS3
+* Bootstrap
+* JavaScript
+* Blade Template Engine
 
-### Premium Partners
+---
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+## 📂 Database
 
-## Contributing
+The project uses **MySQL** as the database.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+Main Tables:
 
-## Code of Conduct
+* users
+* admins
+* products
+* categories
+* orders
+* reviews
+* carts
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## ⚙️ Installation
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. Clone the repository
 
-## License
+```bash
+git clone https://github.com/dabhijinal/mobile_store.git
+```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-=======
-# mobile_store
-Mobile Shop Management System built with Laravel and MySQL. Features include secure authentication, product catalog, shopping cart, order management, customer reviews, and a responsive admin panel.
->>>>>>> 4cb9877cc45d7988359feef6dcc1756f51b22278
+2. Move into the project directory
+
+```bash
+cd mobile_store
+```
+
+3. Install dependencies
+
+```bash
+composer install
+```
+
+4. Copy the environment file
+
+```bash
+cp .env.example .env
+```
+
+5. Generate application key
+
+```bash
+php artisan key:generate
+```
+
+6. Configure the database in the `.env` file.
+
+7. Run migrations
+
+```bash
+php artisan migrate
+```
+
+8. Start the development server
+
+```bash
+php artisan serve
+```
+
+---
+
+## 📸 Screenshots
+
+You can add screenshots of:
+
+* Home Page
+* Product Listing
+* Product Details
+* Shopping Cart
+* Checkout
+* Admin Dashboard
+* Product Management
+* Orders
+* Reviews
+
+---
+
+## 📈 Future Improvements
+
+* Online Payment Gateway
+* Wishlist
+* Coupon System
+* Sales Reports
+* Email Notifications
+* Invoice Generation
+* Product Search & Filters
+
+---
+
+## 👨‍💻 Developer
+
+**Jinal Dabhi**
+
+GitHub: https://github.com/dabhijinal
+
+---
+
+## 📄 License
+
+This project is developed for learning and portfolio purposes.
